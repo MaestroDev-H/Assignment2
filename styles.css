@@ -83,7 +83,7 @@ font-size: 1rem;
 color: #ffff;
 border: 0;
 margin-bottom: 80px;}
-    
+
 .btn2 > button {background-color: #4EC5F7;}
     
 
@@ -129,3 +129,15 @@ margin-bottom: 20px;
 }
 
 /* nav section end */
+
+/* here section start */
+
+@media screen and (max-width: 425px) {section{flex-direction: column;
+background-size: 100%;}
+
+.title {width: 100%;
+margin-left: 0px;}
+.title > h2 {margin-top: 50px;}
+.title > p{margin-left: 60px;}
+    
+}
