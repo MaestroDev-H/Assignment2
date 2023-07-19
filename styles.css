@@ -11,7 +11,7 @@ nav {background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
 
 .container {display: flex;
-min-height: 90px;
+min-height: 70px;
 justify-content: center;
 align-items: center;
 margin: 0 auto;}
@@ -36,11 +36,75 @@ border-radius: 8px;}
 
 /* nav section end */
 
+/* hero section start */
+
+section { display: flex;
+    align-items: center;
+    justify-content: center;
+background-image: url(./images/Group\ 14.png);
+background-repeat: no-repeat;
+background-size: 50%;}
+
+.title {text-align: center;
+margin-left: 8%;}
+
+.title > h2 {margin-top: 80px;}
+
+.title h2 {font-size: 2rem;
+    font-weight: 600;}
+
+    .title h1 {font-size: 4rem;
+        font-weight: 800;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+
+
+.title > p {color: #0B0223;
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+margin-left: 10%;}
+
+
+
+
+.btn-primary {display: flex;
+gap: 30px;
+margin-left: 13%;
+margin-top: 20px;}
+
+button {background-color: #F948B2;
+padding: 15px 30px;
+border-radius: 48px;
+font-weight: 800;
+font-size: 1rem;
+color: #ffff;
+border: 0;
+margin-bottom: 80px;}
+    
+.btn2 > button {background-color: #4EC5F7;}
+    
+
+
+
+.title {width: 50%;}
+
+.title image {width: 50%;}
+
+
+/* hero section end */
+
+
+
 
 
 
 
 /* nav section start */
+
+/* mobile screen */
 
 @media screen and (max-width: 425px) {.container {
     flex-direction: column;
@@ -57,6 +121,8 @@ margin-bottom: 20px;
     .logo img {margin-top: 20px;}
 
 }
+
+/* tablet screen */
 
 @media screen and (min-width: 426px) and (max-width: 768px) {.item {font-size: .8rem;}
     
