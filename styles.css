@@ -132,8 +132,12 @@ margin-bottom: 20px;
 
 /* here section start */
 
+/* mobile screen */
+
 @media screen and (max-width: 425px) {section{flex-direction: column;
-background-size: 100%;}
+    flex-direction: column-reverse;
+background-size: 100%;
+background-position: bottom;}
 
 .title {width: 100%;
 margin-left: 0px;}
@@ -141,3 +145,19 @@ margin-left: 0px;}
 .title > p{margin-left: 60px;}
     
 }
+
+/* tablet screen */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {.title h2 {font-size: 1rem;}
+.title h1 {font-size: 2rem;}
+.title > p {font-size: 8px;}
+button {font-size: 10px;
+    padding: 7px 15px;}
+.btn-primary {gap: 5px;
+margin-top: 5px;}
+
+.title img {margin-right: 50px;}
+}
+
+/* here section end */
+    
