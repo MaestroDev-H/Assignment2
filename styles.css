@@ -673,7 +673,7 @@ footer {
     }
 }
 
-/* here section end */
+/* hero section end */
 
 /* game section start */
 
@@ -843,6 +843,62 @@ footer {
 }
 
 /* play section end */
+
+/* career section start */
+
+/* mobile screen */
+
+@media screen and (max-width: 425px) {
+    .career {
+      flex-direction: column;
+            padding: 30px;
+    }
+  
+    .left-side-career,
+    .right-side-career {
+      width: 100%;
+    }
+  
+    .left-side-career img {
+      width: 100%;
+    }
+  
+    .right-side-career {
+      padding-left: 0;
+    }
+  
+    .right-side-career h1 {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+  
+    .see-btn {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+  
+  /* Tablet screen */
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    .career {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+      gap: 5px;
+    }
+  
+    .right-side-career {
+      max-width: 250px;
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .right-side-career h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+  /* career section end */
 
 /* last section start */
 
