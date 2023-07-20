@@ -153,13 +153,45 @@ button {
 
 .p-images {
     text-align: center;
+    position: relative;
 }
 
 .p-images img {
     width: 100%;
     height: auto;
+    border: 5px solid transparent;
+    border-radius: 20px;
 }
 
+.p-images:hover img {border-color: #F948B2;
+    filter: brightness(30%)}
+
+.play-icon {display: none;
+color: #fff;}
+
+.watch-now {display: none;
+}
+
+.p-images:hover .play-icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.p-images:hover .watch-now {
+    display: block; 
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #F948B2;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 .p-images p {
     font-size: .8rem;
 }
@@ -275,18 +307,17 @@ span {
   
   .last-button {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    padding: 15px 25px;
-    height: 20px;
-    width: 150px;
+    padding: 5px 15px;
+    height: 30px;
+    width: 180px;
     border-radius: 40px;
   }
   
   .last-button h1 {
-    font-size: 1rem;
-    margin-left: 10px;
+    font-size: .8rem;
   }
   
   .last-button img {
