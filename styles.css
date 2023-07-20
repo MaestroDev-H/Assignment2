@@ -16,6 +16,11 @@ nav {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
+.fa-regular,
+.fa-solid {
+    margin-right: 10px;
+}
+
 .container {
     display: flex;
     min-height: 70px;
@@ -54,8 +59,10 @@ nav {
     overflow: hidden;
 }
 
-.Follow > .fa-brands {font-size: 1.8rem;
-margin-left: 15px;}
+.Follow>.fa-brands {
+    font-size: 1.8rem;
+    margin-left: 15px;
+}
 
 /* nav section end */
 
@@ -100,6 +107,7 @@ section {
     font-weight: 400;
     text-align: left;
     margin-left: 10%;
+    width: 300px;
 }
 
 
@@ -150,42 +158,43 @@ button {
     justify-content: center;
     margin: 0, auto;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-  }
-  
-   .left-side {
+}
+
+.left-side {
     flex: 1;
     text-align: center;
-  }
-  
-  .left-side img {
+}
+
+.left-side img {
     width: 100%;
     max-width: 500px;
     height: auto;
     border-radius: 10px;
-  }
-  
-  .right-side {
+}
+
+.right-side {
     flex: 1;
     padding: 20px;
-text-align: right;
-margin-right: 120px;}
-  
-  .right-side h1 {
+    text-align: right;
+    margin-right: 120px;
+}
+
+.right-side h1 {
     font-size: 3rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  
-  .right-side p {
+}
+
+.right-side p {
     color: #0B0223;
     font-size: 1rem;
     font-weight: 400;
-     }
-  
-  .right-side button {
+}
+
+.right-side button {
     padding: 10px 20px;
     background-color: #f948b2;
     color: #fff;
@@ -196,19 +205,19 @@ margin-right: 120px;}
     margin-top: 20px;
     cursor: pointer;
     margin-bottom: 20px;
-  }
-  
-  .right-side h3 {
+}
+
+.right-side h3 {
     font-size: 1.5rem;
     font-weight: 600;
     color: #534C64;
     margin-top: 10px;
-  }
-  
-  
+}
 
-  
-  /* gamer end */
+
+
+
+/* gamer end */
 
 /* online game section start */
 
@@ -378,67 +387,73 @@ span {
     flex-direction: row-reverse;
     gap: 120px;
     background: linear-gradient(90deg, rgba(255, 66, 164, 0.692) 0%, rgba(255, 66, 230, 0.479) 100%);
-  }
-  
-  .left-side-career {
+}
+
+.left-side-career {
     flex: 1;
     width: 50%;
-  }
+}
 
-  .left-side-career img {
-     width: 600px;
-     height: auto;
-  }
-  
-  .right-side-career {
+.left-side-career img {
+    width: 600px;
+    height: auto;
+}
+
+.right-side-career {
     flex: 1;
     width: 50%;
     color: #fff;
     padding-left: 80px;
-  }
-  
-  .right-side-career h1 {
-  font-size: 2rem;
-  font-weight: 800;
- margin-bottom: 20px;
- margin-top: 100px;
-  }
+}
 
-  .right-side-career p {
+.right-side-career h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.right-side-career p {
     font-size: 12px;
     font-weight: 400;
-     margin-bottom: 20px;
-    }
+    margin-bottom: 20px;
+}
 
-  h1, p, ol {
+h1,
+p,
+ol {
     margin: 0;
     padding: 0;
     list-style: none;
-  }
-  .h3-container li {
+}
+
+.h3-container li {
     margin-bottom: 20px;
-      }
-  .h3-container {
+}
+
+.h3-container {
     display: flex;
     font-size: .8rem;
-      }
-  
-  .ol-left {
+}
+
+.ol-left {
     flex: 1;
     font-weight: 600;
-  }
-  
-  .ol-right {
+}
+
+.ol-right {
     flex: 1;
     font-weight: 600;
     text-align: right;
-  }
+}
 
-  .see-btn {background-color: #fff;
-color: #F948B2;}
-  
+.see-btn {
+    background-color: #fff;
+    color: #F948B2;
+}
+
 /* career section end */
-  
+
 
 /* last section start */
 
@@ -446,7 +461,7 @@ color: #F948B2;}
 
 .kosto {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-        padding: 80px;
+    padding: 80px;
 }
 
 .last {
@@ -609,7 +624,7 @@ footer {
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .item {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
 }
@@ -669,7 +684,10 @@ footer {
     }
 
     .title img {
-        margin-right: 50px;
+        margin-right: 100px;
+        margin-left: -100px;
+        max-width: 300px;
+        height: auto;
     }
 }
 
@@ -677,57 +695,60 @@ footer {
 
 /* game section start */
 
-  /* Mobile screen */
-  @media screen and (max-width: 425px) {
+/* Mobile screen */
+@media screen and (max-width: 425px) {
     .gamer {
-      flex-direction: column;
-      align-items: stretch;
-      margin: 0 auto;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0 auto;
     }
+
     .left-side img {
-               max-width: 300px;}
-  
+        max-width: 300px;
+    }
+
     .left-side,
     .right-side {
-      flex: 100%;
-      text-align: center;
-      padding: 0px;
-      margin-right: 0px;
-    }  
+        flex: 100%;
+        text-align: center;
+        padding: 0px;
+        margin-right: 0px;
+    }
 
     .right-side h1 {
         font-size: 2rem;
-      }
-
-      .right-side p {
-        font-size: 10px;
-      }
-      .right-side {
-        margin-bottom: 20px;
-      }
- }
-  
-  /* Tablet screen */
-  @media screen and (min-width: 426px) and (max-width: 768px) {
-    .gamer {
-      flex-direction: column;
-      align-items: stretch;
     }
-  
+
+    .right-side p {
+        font-size: 10px;
+    }
+
+    .right-side {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablet screen */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .gamer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
     .left-side,
     .right-side {
-      flex: 100%;
-      text-align: center;
-    }
-  
-    .right-side {
-      margin-top: 20px;
-      margin-right: 0px;
-      padding-right: 0px;
+        flex: 100%;
+        text-align: center;
     }
 
-   
-  }
+    .right-side {
+        margin-top: 20px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+
+}
 
 /* online game section start */
 
@@ -761,12 +782,10 @@ footer {
     .on-image {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        width: 90%;
     }
 
     .online-game {
         width: 90%;
-        margin: 0 auto;
     }
 
     .on-title h1 {
@@ -850,55 +869,55 @@ footer {
 
 @media screen and (max-width: 425px) {
     .career {
-      flex-direction: column;
-            padding: 30px;
+        flex-direction: column;
+        padding: 30px;
     }
-  
+
     .left-side-career,
     .right-side-career {
-      width: 100%;
+        width: 100%;
     }
-  
-    .left-side-career img {
-      width: 100%;
-    }
-  
-    .right-side-career {
-      padding-left: 0;
-    }
-  
-    .right-side-career h1 {
-      font-size: 1.5rem;
-      margin-top: 0;
-    }
-  
-    .see-btn {
-      width: 100%;
-      max-width: 200px;
-    }
-  }
-  
-  /* Tablet screen */
-  @media screen and (min-width: 426px) and (max-width: 768px) {
-    .career {
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 30px;
-      gap: 5px;
-    }
-  
-    .right-side-career {
-      max-width: 250px;
-      width: 100%;
-      padding-left: 0;
-    }
-  
-    .right-side-career h1 {
-      font-size: 1.8rem;
-    }
-  }
 
-  /* career section end */
+    .left-side-career img {
+        width: 100%;
+    }
+
+    .right-side-career {
+        padding-left: 0;
+    }
+
+    .right-side-career h1 {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .see-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+/* Tablet screen */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .career {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px;
+        gap: 5px;
+    }
+
+    .right-side-career {
+        max-width: 250px;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .right-side-career h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* career section end */
 
 /* last section start */
 
@@ -974,7 +993,3 @@ footer {
 
 
 /* footer section end */
-
-
-
-  
