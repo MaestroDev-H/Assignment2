@@ -587,22 +587,23 @@ font-weight: 400;}
 
 @media screen and (max-width: 425px) {
     .last {
-      justify-content: flex-start;
-       }
-    
+        justify-content: flex-start;
+    }
+body {overflow-x: hidden;}
     .last-button {
-      width: calc(33.33% - 20px);
-    margin: 0 auto;}
-    
+        width: calc(33.33% - 20px);
+        margin: 0 auto;
+    }
+
     .last-button:last-child {
-      margin-right: 0;
+        margin-right: 0;
     }
-    
+
     .last-button h1 {
-      font-size: 0.5rem; 
-      margin-left: 5px; 
+        font-size: 0.5rem;
+        margin-left: 5px;
     }
-  }
+}
 
 /* footer section start */
 
@@ -610,28 +611,40 @@ font-weight: 400;}
 
 @media screen and (max-width: 425px) {
     footer {
-      padding: 40px;
+        padding: 40px;
     }
-    .foot-link li {  margin-right: 10px;
-      font-size: .8rem;
-      font-weight: 600;
+    .foot-link li {
+        margin-right: 10px;
+        font-size: .8rem;
+        font-weight: 600;
     }
-    .foot-link2 li, p {margin-right: 5px;
-    font-size: .5rem;
-    font-weight: 400;}
-  
-    .social {
-      margin-right: 20px;
-      font-size: 1.5rem;
-    }}
+    .foot-link2 li,
+    p {
+        margin-right: 5px;
+        font-size: .5rem;
+        font-weight: 400;
+    }
 
+    .social {
+        margin-right: 20px;
+        font-size: 1.5rem;
+    }
+}
     /* tablet screen */
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {.foot-link2 li, p {margin-right: 5px;
-        font-size: .8rem;
-        font-weight: 400;}
-        .foot-link li {  margin-right: 10px;
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        .foot-link2 li,
+        p {
+            margin-right: 5px;
+            font-size: .8rem;
+            font-weight: 400;
+        }
+        .foot-link li {
+            margin-right: 10px;
             font-size: 1rem;
-            font-weight: 600;}}
+            font-weight: 600;
+        }
+    }
+    
 
             /* footer section end */
