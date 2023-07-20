@@ -168,7 +168,7 @@ button {
     flex: 1;
     padding: 20px;
 text-align: right;
-margin-right: 80px;}
+margin-right: 120px;}
   
   .right-side h1 {
     font-size: 3rem;
@@ -314,6 +314,7 @@ span {
     margin: 0 auto;
     gap: 200px;
     margin-top: 100px;
+    margin-bottom: 120px;
 }
 
 .play-left {
@@ -370,14 +371,82 @@ span {
 
 /* play section end */
 
+/* career section start */
+.career {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 120px;
+    background: linear-gradient(90deg, rgba(255, 66, 164, 0.692) 0%, rgba(255, 66, 230, 0.479) 100%);
+  }
+  
+  .left-side-career {
+    flex: 1;
+    width: 50%;
+  }
+
+  .left-side-career img {
+     width: 600px;
+     height: auto;
+  }
+  
+  .right-side-career {
+    flex: 1;
+    width: 50%;
+    color: #fff;
+    padding-left: 80px;
+  }
+  
+  .right-side-career h1 {
+  font-size: 2rem;
+  font-weight: 800;
+ margin-bottom: 20px;
+ margin-top: 100px;
+  }
+
+  .right-side-career p {
+    font-size: 12px;
+    font-weight: 400;
+     margin-bottom: 20px;
+    }
+
+  h1, p, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .h3-container li {
+    margin-bottom: 20px;
+      }
+  .h3-container {
+    display: flex;
+    font-size: .8rem;
+      }
+  
+  .ol-left {
+    flex: 1;
+    font-weight: 600;
+  }
+  
+  .ol-right {
+    flex: 1;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  .see-btn {background-color: #fff;
+color: #F948B2;}
+  
+/* career section end */
+  
+
 /* last section start */
 
 
 
 .kosto {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    margin-top: 100px;
-    padding: 50px;
+        padding: 80px;
 }
 
 .last {
